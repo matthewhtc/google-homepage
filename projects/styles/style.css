@@ -1,0 +1,87 @@
+.main-logo {
+	text-align:center;
+ 	position: fixed;
+ 	top: 40%;
+  	left: 50%;
+  	transform: translate(-50%, -50%); 
+	
+}
+.google {
+
+	height:92px;
+	width:272px;
+}
+.mic {
+	height: 23px;
+	width: 17px;
+}
+
+.links {
+	padding: 10px 10px;
+	font-family:Arial;
+	font-size:13px;
+	text-decoration:none;
+	text-align:center;
+	color: #666666;
+
+}
+
+li a {
+	padding: 10px 10px;
+	float: left;
+}
+.navbar {
+	position:relative;
+	list-style:none;
+	margin: 0;
+	padding: 0;
+    float: right;
+}
+
+li {
+	float: left;
+}
+
+.img-size {
+	height:25px;
+	width:25px;
+}
+
+.profile-pic {
+	height:25px;
+	width:25px;
+	border-radius: 100%;
+
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.search-bar {
+	background-image: url('../images/mic-icon1.png');
+	background-repeat:no-repeat;
+	background-position: right;
+	background-size: 28px 30px;
+	height:35px;
+	width:600px;
+}
+
+.footer {
+	background-color: #f2f2f2;
+	left:0;
+	right: 0;
+	bottom: 0;
+	position:fixed;
+	list-style:none;
+	margin: 0;
+    padding: 0;
+    width: 100%;
+	list-style: none;
+	line-height: 25px;
+
+}
+
+.right-footer {
+	float: right;
+}
