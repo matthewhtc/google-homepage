@@ -1,13 +1,12 @@
 .main-logo {
 	text-align:center;
  	position: fixed;
- 	top: 40%;
+ 	top: 45%;
   	left: 50%;
   	transform: translate(-50%, -50%); 
 	
 }
 .google {
-
 	height:92px;
 	width:272px;
 }
@@ -23,7 +22,7 @@
 	text-decoration:none;
 	text-align:center;
 	color: #666666;
-
+	
 }
 
 li a {
@@ -43,6 +42,9 @@ li {
 }
 
 .img-size {
+	padding:0;
+	margin:0;
+	text-align: center;
 	height:25px;
 	width:25px;
 }
@@ -84,4 +86,16 @@ a:hover {
 
 .right-footer {
 	float: right;
+}
+
+.button {
+	border: none;
+	outline:none;
+	background-color: #f2f2f2;
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #666666;
+	margin: 30px 2px;
+	padding:12px 17px;
 }
